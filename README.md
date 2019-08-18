@@ -1,2 +1,2 @@
 # DnaA finder
-##Find DnaA boxes in Bacterial Genome
+Find DnaA boxes in Bacterial Genome
