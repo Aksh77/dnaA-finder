@@ -7,3 +7,7 @@ Find DnaA box in Salmonella enterica genome
     1. Window starting at Ori
     2. Window ending at Ori
     3. Window centered at Ori
+
+## References
+1. [Stepik](https://stepik.org)
+2. [Coursera](https://www.coursera.org/learn/dna-analysis)
