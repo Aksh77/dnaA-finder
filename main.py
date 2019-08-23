@@ -1,9 +1,10 @@
 from oriFinder import findOri
 
 def main():
-    with open("Project-1/salmonella.txt", "r") as fin:
-        #read the genome
-        genome = fin.read().strip()
+    #find Origin of replication
+    with open("Salmonella_enterica.txt", "r") as fin:
+        #parse FASTA file and read the genome
+        genome = ''.join(fin.read().split('\n')[1:])
         #get origin of replication
         oriPos = findOri(genome)
         print(oriPos)
